@@ -1,4 +1,7 @@
 import './App.css';
+import Form from './components/Form';
+// import NameList from './components/NameList';
+// import UserGreeting from './components/UserGreeting';
 // import Greet from './components/Greet'
 // import Welcome from './components/Welcome'
 // import Hello from './components/Hello';
@@ -7,7 +10,7 @@ import './App.css';
 // import FunctionClick from './components/FunctionClick';
 // import ClassClick from './components/ClassClick'
 // import EventBind from './components/EventBind';
-import ParentComponent from './components/ParentComponent';
+// import ParentComponent from './components/ParentComponent';
 
 function App() {
   return (
@@ -26,7 +29,10 @@ function App() {
       {/* <FunctionClick /> */}
       {/* <ClassClick /> */}
       {/* <EventBind /> */}
-      <ParentComponent />
+      {/* <ParentComponent /> */}
+      {/* <UserGreeting /> */}
+      {/* <NameList /> */}
+      <Form />
     </div>
   );
 }
