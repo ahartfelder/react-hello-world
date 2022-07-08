@@ -1,5 +1,8 @@
 import './App.css';
-import Form from './components/Form';
+import Table from './components/Table';
+// import Fragment from './components/Fragment';
+// import LifecycleA from './components/LifecycleA';
+// import Form from './components/Form';
 // import NameList from './components/NameList';
 // import UserGreeting from './components/UserGreeting';
 // import Greet from './components/Greet'
@@ -15,6 +18,8 @@ import Form from './components/Form';
 function App() {
   return (
     <div className="App">
+      <Table />
+      {/* <Fragment /> */}
       {/* <Greet name={'Andreas'}>
         <p>Administrator</p>
       </Greet> */}
@@ -32,7 +37,8 @@ function App() {
       {/* <ParentComponent /> */}
       {/* <UserGreeting /> */}
       {/* <NameList /> */}
-      <Form />
+      {/* <Form /> */}
+      {/* <LifecycleA /> */}
     </div>
   );
 }
