@@ -1,12 +1,17 @@
 import './App.css';
-import ClickCounter from './components/ClickCounter';
-import HoverCounter from './components/HoverCount';
+import ClickCounterTwo from './components/ClickCounterTwo';
+import CounterTwo from './components/CounterTwo';
+import HoverCounterTwo from './components/HoverCounterTwo';
 
 function App() {
   return (
     <div className="App">
-      <ClickCounter action='Clicked' />
-      <HoverCounter action='Hovered' />
+      <CounterTwo>
+        {(count, incrementCount) => <ClickCounterTwo count={count} incrementCount={incrementCount} />}
+      </CounterTwo>
+      <CounterTwo>
+        {(count, incrementCount) => <HoverCounterTwo count={count} incrementCount={incrementCount} />}
+      </CounterTwo>
     </div>
   );
 }
